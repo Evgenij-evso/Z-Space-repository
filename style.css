@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+
     background-image: url(./images/BackgroundBlackStarEdition6.jpg);
     display: table;
 }
@@ -1233,21 +1234,15 @@ footer{
 
 }
 @media(max-width:768px){
-    .VenusGl{
-        left: 17vw;
-        top: 3%;
-    }
     .ZSpace{
         position: absolute;
         width: 100%;
         height: auto;
-        left: 2vw;
         top: 12%;
     }
     .TextMarsToDay{
         width: 85vw;
         font-size: 100px;
-        left: 10%;
         top: 52%;
     }
     .TextSpaceLife{
@@ -1269,7 +1264,8 @@ footer{
     .TIKM{
         width: 60vw;
         height: 85vh;
-        margin-left: 20vw;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 11vh;
     }
     .Mars{
@@ -1366,34 +1362,29 @@ footer{
     .VenusGl{
         width: 65vw;
         height: auto;
-        left: 17vw;
         top: 5vh;
     }
     .ZSpace{
         position: absolute;
         width: 100%;
         height: auto;
-        left: 0vw;
         top: 10%;
     }
     .Arrow1{
         position: absolute;
         width: 88px;
-        height: 55px;
-        left: 40%;
+        height: auto;
         top: 70%;
     }
     .TextMarsToDay{
         width: 77vw;
         font-size: 50px;
-        left: 12.5%;
         top: 35%;
     }
     .TextSpaceLife{
         opacity: 1;
         width: 55vw;
         font-size: 40px;
-        right: 22%;
         top: 43%;
     }
     .AutoLayout_1{
@@ -1428,7 +1419,8 @@ footer{
     
         width: 90vw;
         height: 85vh;
-        margin-left:0;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 11vh;
         
         border-radius: 50px;
