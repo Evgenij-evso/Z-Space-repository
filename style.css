@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Offside';
     background-image: url(./images/BackgroundBlackStarEdition6.jpg);
     display: table;
 }
@@ -12,16 +10,19 @@ header{
     width: 100vw;
     height: 100vh;
     background-image: url(./images/BackgroundBlackStarEdition.jpg);
+    display: inline-flex;
+    justify-content: center;
 }
 /* Text */
 .TextMarsToDay{
     position: absolute;
     width: auto;
     height: auto;
-    left: 34%;
+    right: auto;
+    left: auto;
     top: 54%;
-    
-    
+
+
     font-family: 'Offside';
     font-style: normal;
     font-weight: 400;
@@ -36,7 +37,8 @@ header{
     position: absolute;
     width: auto;
     height: auto;
-    left: 41%;
+    right: auto;
+    left: auto;
     top: 68%;
 
     font-family: 'Offside';
@@ -65,7 +67,19 @@ header{
     top: 61.5%;
 
 }
+.AutoLayout_1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
 
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 15.78125%;
+    top: 61.2%;
+}
 .ButtonCont{
     width: auto;
     height: auto;
@@ -93,19 +107,7 @@ header{
 
 
 
-.AutoLayout_1{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
 
-    position: absolute;
-    width: auto;
-    height: auto;
-    right: 15.78125%;
-    top: 61.2%;
-}
 
 .ButtonInfo{
     width: auto;
@@ -134,7 +136,8 @@ header{
     position: absolute;
     width: 88px;
     height: 55px;
-    left: 47.7%;
+    right: auto;
+    left: auto;
     top: 86%;
 }
 /* Button Back */
@@ -142,14 +145,16 @@ header{
     position: absolute;
     width: 512px;
     height: 512px;
-    right: 37.5%;
+    right: auto;
+    left: auto;
     top: 2.5%;
 }
 .ZSpace{
     position: absolute;
     width: 900px;
     height: 415px;
-    left: 27%;
+    right: auto;
+    left: auto;
     top: 7.6%;
 }
 .display2{
@@ -724,26 +729,11 @@ footer{
         height: 7vh;
     }
 }
-@media(max-width:1780px){
-    .TextSpaceLife{
-        width: auto;
-        left: 40.5vw;
-    }
-    .VenusGl{
-        left: 36vw;
-    }
-    .Arrow1{
-        left: 48%;
-    }
-
-}
 @media(max-width:1600px){
     .VenusGl{
-        left: 36vw;
         top: 3%;
     }
     .ZSpace{
-        left: 25%;
         top: 10%;
     }
     .AutoLayout_1{
@@ -755,16 +745,10 @@ footer{
         top: 57%;
     }
     .TextMarsToDay{
-
-        left: 32vw;
         top: 50%;
     }
     .TextSpaceLife{
-        left: 40%;
         top: 63%;
-    }
-    .Arrow1{
-        left: 48%;
     }
     .MTH{
         width: 20vw;
@@ -780,26 +764,6 @@ footer{
 
 }
 @media(max-width:1440px){
-    .VenusGl{
-        left: 32.5%;
-        top: 3%;
-    }
-    .ZSpace{
-        height: auto;
-        left: 19.5%;
-        top: 10%;
-    }
-    .TextMarsToDay{
-        width: auto;
-        left: 28.5%;
-        top: 49%;
-    }
-    .TextSpaceLife{
-        position: absolute;
-
-        left: 39%;
-        top: 67%;
-    }
     .AutoLayout_1{
         right: 10%;
         top: 56%;
@@ -893,33 +857,16 @@ footer{
     .MTH{
         width: 24vw;
     }
-    .MPEconome{
-
-    }
     .TIKM{
         margin-left: 2.5vw;
     }
 }
 @media(max-width:1200px){
-
-    .VenusGl{
-        left: 28.5%;
-        top: 3%;
-    }
-    .ZSpace{
-        height: auto;
-        left: 15.5%;
-        top: 10%;
-    }
     .TextMarsToDay{
         width: auto;
-        left: 24.5%;
         top: 49%;
     }
     .TextSpaceLife{
-        position: absolute;
-
-        left: 35%;
         top: 67%;
     }
     .AutoLayout_1{
@@ -929,27 +876,12 @@ footer{
         left: 2.5%;
         top: 56%;
     }
-    .Arrow1{
-        left: 46vw;
-    }
 }
 @media(max-width:1100px){
-    .VenusGl{
-        left: 27.5%;
-        top: 3%;
-    }
-    .ZSpace{
-        height: auto;
-        left: 13.5%;
-        top: 10%;
-    }
     .TextMarsToDay{
-        width: auto;
-        left: 22.5%;
         top: 49%;
     }
     .TextSpaceLife{
-        left: 34%;
         top: 67%;
     }
     .AutoLayout_1{
@@ -959,9 +891,6 @@ footer{
     .AutoLayout{
         left: 2.5%;
         top: 58vw;
-    }
-    .Arrow1{
-        left: 45vw;
     }
     .TIKM{
         margin-left: 0;
@@ -991,18 +920,17 @@ footer{
     .VenusGl{
         width: 70vw;
         height: auto;
-        left: 15.4vw;
         top: 3%;
     }
     .ZSpace{
         width: 100vw;
         height: auto;
-        left: 0%;
         top: 10%;
     }
     .TextMarsToDay{
         width: 80vw;
-        left: 10vw;
+        left: auto;
+        right: auto;
         top: 35%;
         font-size: 125px;
     }
@@ -1010,24 +938,38 @@ footer{
         position: absolute;
         width: 50%;
         height: 5%;
-        right: 25%;
+        left: auto;
+        right: auto;
         top: 45%;
         font-size: 91px;
     }
     .Arrow1{
-        top: 95vh;
+        top: 70vh;
+        left: auto;
+        right: auto;
+    }
+    .ButtonCont{
+        width: auto;
+        height: auto;
+        font-size: 150px;
+    }
+    
+    .ButtonInfo{
+        width: auto;
+        height: auto;
+        font-size: 150px;
     }
     .AutoLayout_1{
-        width: 22.5vw;
-        height: 14vh;
-        right: 3%;
-        top: 55%;
+        width: auto;
+        height: auto;
+        right: 5%;
+        top: 60%;
     }
     .AutoLayout{
-        width: 22.5vw;
-        height: 14vh;
+        width: auto;
+        height: auto;
         left: 5%;
-        top: 55%;
+        top: 60%;
     }
     .Shop_SMV{
         position: relative;
@@ -1038,18 +980,11 @@ footer{
         justify-content: center;
     }
     .TIKM{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px 20px;
-        gap: 10px;
-    
-    
         width: 90vw;
         height: 85vh;
-        margin-left: 3vw;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 11vh;
-        
         border-radius: 100px;
     }
     .Mars{
