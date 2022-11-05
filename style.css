@@ -1,0 +1,1622 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/BackgroundBlackStarEdition6.jpg);
+    display: table;
+    font-family: 'Offside', cursive;
+}
+
+header{
+    position: static;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/BackgroundBlackStarEdition.jpg);
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'Offside', cursive;
+}
+/* Text */
+.TextMarsToDay{
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: auto;
+    left: auto;
+    top: 54%;
+
+
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 615.2%;
+    line-height: 126px;
+
+    color: #FFFFFF;
+
+    text-shadow: -3px -6px 18px #A5A5A5;
+}
+.TextSpaceLife{
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: auto;
+    left: auto;
+    top: 68%;
+
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 81px;
+
+    color: #FFFFFF;
+
+    text-shadow: -3px -6px 12px #9A9A9A;
+}
+/* Text Back */
+/* Button */
+.AutoLayout{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 15.78125%;
+    top: 61.5%;
+
+}
+.AutoLayout_1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 15.78125%;
+    top: 61.2%;
+}
+.ButtonCont{
+    width: auto;
+    height: auto;
+
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 126px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    background: none;
+    border-style: none;
+    text-shadow: -3px -6px 12px rgba(255, 255, 255, 0.25);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+
+
+
+.ButtonInfo{
+    width: auto;
+    height: auto;
+
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 126px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.4);
+    background: none;
+    border-style: none;
+    text-decoration: none;
+    text-shadow: -3px -6px 12px rgba(255, 255, 255, 0.25);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Arrow1{
+    position: absolute;
+    width: 88px;
+    height: 55px;
+    right: auto;
+    left: auto;
+    top: 86%;
+}
+/* Button Back */
+.VenusGl{
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    right: auto;
+    left: auto;
+    top: 2.5%;
+}
+.ZSpace{
+    position: absolute;
+    width: 900px;
+    height: 415px;
+    right: auto;
+    left: auto;
+    top: 7.6%;
+}
+.display2{
+    margin-top: 1080px;
+    width: 1900px;
+    height: 1000px;
+    background-image: url(./images/BackgroundBlackStarEdition.jpg);
+    position:absolute;
+}
+.Shop_SMV{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/BackgroundBlackStarEdition.jpg);
+    display: flex;
+    align-items: center;
+    font-family: 'Offside', cursive;
+}
+.TIKM{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 20px;
+    gap: 10px;
+
+
+    width: 25.1875vw;
+    height: 75.6481481481vh;
+    margin-left: 5vw;
+
+    
+    border-radius: 50px;
+}
+.Mars{
+    width: 25.1875vw;
+    height: 75.6481481481vh;
+
+    background: rgba(255, 255, 255, 0.62);
+    
+    border-radius: 40px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.MList_class{
+    width: 24vw;
+    height: 27vh;
+    margin-left: 2vw;
+    margin-top: 5vh;
+}
+.MEconome{
+    width: 22vw;
+    height:10vh;
+    display: flex;
+}
+.MComfort{
+    width: 22vw;
+    height:10vh;
+    display: flex;
+}
+.MBisness{
+    width: 22vw;
+    height:10vh;
+    display: flex;
+}
+.MPEconome{
+    width: 10vw;
+    height: 5vh;
+    margin: 0;
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 63px;
+
+    color: #000000;
+}
+.MPComfort{
+    width: 10vw;
+    height: 5vh;
+    margin: 0;
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 63px;
+    
+    color: #000000; 
+}
+.MPBisness{
+    width: 10vw;
+    height: 5vh;
+    margin: 0;
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 63px;
+    
+    color: #000000;
+}
+.MEOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+
+    width: 8vw;
+    height: 5vh;
+    margin-left: 2vw;
+
+
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background: url(./images/mars.png);
+    background-size: 20vw 20vw;
+    background-position: center;
+    border-radius: 30px;
+}
+.MCOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+
+    width: 8vw;
+    height: 5vh;
+    margin-left: 2vw;
+
+
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background: url(./images/mars.png);
+    background-size: 20vw 20vw;
+    background-position: center;
+    border-radius: 30px;
+}
+.MBOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+
+    width: 8vw;
+    height: 5vh;
+    margin-left: 2vw;
+
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background: url(./images/mars.png);
+    background-size: 20vw 20vw;
+    background-position: center;
+    border-radius: 30px;
+}
+.MTH{
+
+    width: 20vw;
+    height: 20vh;
+    margin-left: 4vw;
+    margin-top: 8vh;
+
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 95px;
+
+    color: #000000;
+}
+
+.MTD{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    gap: 40px;
+
+
+    width: 7vw;
+    height: 7vh;
+    margin-left: 11vw;
+    margin-top: 3vh;
+
+    
+    background: url(./images/mars.png);
+    background-size: 30vh 20vh;
+    background-position: center;
+    border-radius: 40px;
+}
+.MTB{
+    width: auto;
+    height: auto;
+
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.SEOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+
+    width: 8vw;
+    height: 5vh;
+    margin-left: 2vw;
+
+
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background: url(./images/Space.png);
+    background-size: 20vw 20vw;
+    background-position: center;
+    border-radius: 30px;
+}
+.SCOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+
+    width: 8vw;
+    height: 5vh;
+    margin-left: 2vw;
+
+
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background: url(./images/Space.png);
+    background-size: 20vw 20vw;
+    background-position: center;
+    border-radius: 30px;
+}
+.SBOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+
+    width: 8vw;
+    height: 5vh;
+    margin-left: 2vw;
+
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background: url(./images/Space.png);
+    background-size: 20vw 20vw;
+    background-position: center;
+    border-radius: 30px;
+}
+.STD{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    gap: 40px;
+
+
+    width: 7vw;
+    height: 7vh;
+    margin-left: 11vw;
+    margin-top: 3vh;
+
+    
+    background: url(./images/Space.png);
+    background-size: 30vh 20vh;
+    background-position: center;
+    border-radius: 40px;
+}
+.VEOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+
+    width: 8vw;
+    height: 5vh;
+    margin-left: 2vw;
+
+
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background: url(./images/venus.png);
+    background-size: 20vw 20vw;
+    background-position: center;
+    border-radius: 30px;
+}
+.VCOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+
+    width: 8vw;
+    height: 5vh;
+    margin-left: 2vw;
+
+
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background: url(./images/venus.png);
+    background-size: 20vw 20vw;
+    background-position: center;
+    border-radius: 30px;
+}
+.VBOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+
+    width: 8vw;
+    height: 5vh;
+    margin-left: 2vw;
+
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    background: url(./images/venus.png);
+    background-size: 20vw 20vw;
+    background-position: center;
+    border-radius: 30px;
+}
+.VTD{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    gap: 40px;
+
+
+    width: 7vw;
+    height: 7vh;
+    margin-left: 11vw;
+    margin-top: 3vh;
+
+    
+    background: url(./images/venus.png);
+    background-size: 30vh 20vh;
+    background-position: center;
+    border-radius: 40px;
+}
+
+
+.display3{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50px;
+    opacity: 0;
+}
+footer{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/BackgroundBlackStarEdition5.jpg);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.container_F{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 95.625%;
+    height: 39.5370%;
+    bottom: 5%;
+
+    border-style: solid;
+    border-color: #31314dc9;
+    background: rgba(0, 17, 49, 0.7);
+    opacity: 0.77;
+    border-radius: 62px;
+}
+.P_F{
+    position: absolute;
+    width: 33.125%;
+    height: 20%;
+    left: 4.16666666667%;
+    top: 1%;
+
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-indent: 3px;
+
+    color: #FFFFFF;
+}
+.contact_F{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 26.4583333333%;
+    height: 40%;
+    left: 71.6775599129%;
+    top: 55%;
+
+    border: 3px solid rgba(255, 255, 255, 0.25);
+    border-radius: 51px;
+    display: flex;
+    align-items: center;
+}
+.minIconFacebook{
+    width: 10%;
+    height: auto;
+    margin-left: 7%;
+}
+.minIconTelegram{
+    width: 15%;
+    height: auto;
+    margin-left: 10%;
+}
+.minIconInstagram{
+    width: 15%;
+    height: auto;
+    margin-left: 10%;
+}
+.minIconWatsApp{
+    width: 15%;
+    height: auto;
+    margin-left: 10%;
+}
+/* HTML Contacts */
+.contacts{
+    position: absolute;
+    width: 893px;
+    height: 755px;
+    left: 29px;
+    top: 110px;
+
+}
+.TextContact{
+    position: absolute;
+    width: 590px;
+    height: 162px;
+    left: 90px;
+    top: 65px;
+
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 189px;
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(0, 255, 117, 0.1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.ContainerIcon{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    top: -100px;
+    left: 1000px;
+    background: #00000000;
+    display: grid;
+    align-items: center;
+    grid-template-areas: "TL TR"  
+                        "BL BR";
+    grid-template-rows: 400px 400px;
+    grid-template-columns: 400px 400px; 
+
+}
+.IconTelegram{
+    position: absolute;
+    width: 392px;
+    height: 370px;
+    grid-area: BR;
+}
+.IconWatsApp{
+    position: absolute;
+    width: 392px;
+    height: 370px;
+    grid-area: TL;
+}
+.IconFacebook{
+    position: absolute;
+    width: 392px;
+    height: 370px;
+    grid-area: BL;
+}
+.IconInstagram{
+    position: absolute;
+    width: 392px;
+    height: 370px;
+    grid-area: TR;
+}
+.Menu_back{
+    position: absolute;
+    width: 200px;
+    margin-left: 1625px;
+    z-index: 1;
+}
+.Arrowback{
+    position: absolute;
+    width: 75px;
+    margin-left: 1800px;
+    margin-top: 35px;
+    opacity: 0;
+}
+/* HTML Contacts Back*/
+@media(max-height:900px){
+    .MTD{
+        width: 7vw;
+        height: 10vh;
+        margin-left: 11vw;
+        margin-top: 3vh;
+    }
+    .VTD{
+        width: 7vw;
+        height: 10vh;
+        margin-left: 11vw;
+        margin-top: 3vh;
+    }
+    .STD{
+        width: 7vw;
+        height: 10vh;
+        margin-left: 11vw;
+        margin-top: 3vh;
+    }
+    .MTB{
+        width: 6vw;
+        height: 7vh;
+    }
+}
+@media(max-width:1600px){
+    .VenusGl{
+        top: 3%;
+    }
+    .ZSpace{
+        top: 10%;
+    }
+    .AutoLayout_1{
+        right: 9%;
+        top: 57%;
+    }
+    .AutoLayout{
+        left: 9%;
+        top: 57%;
+    }
+    .TextMarsToDay{
+        top: 50%;
+    }
+    .TextSpaceLife{
+        top: 63%;
+    }
+    .MTH{
+        width: 20vw;
+        height: 20vh;
+        margin-left: 4vw;
+        margin-top: 8vh;
+        font-size: 60px;
+    }
+    .MTB{
+        height: 8vh;
+        font-size: 50px;
+    }
+
+}
+@media(max-width:1440px){
+    .AutoLayout_1{
+        right: 10%;
+        top: 56%;
+    }
+    .AutoLayout{
+        left: 9%;
+        top: 56%;
+    }
+    .TIKM{
+        margin-left: 4vw;
+    }
+    .MPEconome{
+        font-size: 35px;
+        width: 12vw;
+        height: 6vh;
+    }
+    .MPComfort{
+        font-size: 35px;
+        width: 12vw;
+        height: 6vh;
+    }
+    .MPBisness{
+        font-size: 35px;
+        width: 12vw;
+        height: 6vh;
+    }
+    .MEOrder{
+        font-size: 30px;
+    }
+    .MCOrder{
+        font-size: 30px;
+    }
+    .MBOrder{
+        font-size: 30px;
+    }
+    .SEOrder{
+        font-size: 30px;
+    }
+    .SCOrder{
+        font-size: 30px;
+    }
+    .SBOrder{
+        font-size: 30px;
+    }
+    .VEOrder{
+        font-size: 30px;
+    }
+    .VCOrder{
+        font-size: 30px;
+    }
+    .VBOrder{
+        font-size: 30px;
+    }
+    .STD{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10vw;
+    }
+    .VTD{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10vw;
+    }
+    .MTD{
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        margin-left: 10vw;
+    }
+}
+@media(max-width:1364px){
+    .TIKM{
+        margin-left: 4vw;
+        width: 27vw;
+        height: 75.6481481481vh;
+    }
+    .Mars{
+        width: 27vw;
+    }
+    .MTB{
+        width: auto;
+        height: auto;
+    }
+}
+@media(max-width:1280px){
+    .AutoLayout_1{
+        right: 6.5%;
+    }
+    .MTH{
+        width: 24vw;
+    }
+    .TIKM{
+        margin-left: 2.5vw;
+    }
+}
+@media(max-width:1200px){
+    .TextMarsToDay{
+        width: auto;
+        top: 49%;
+    }
+    .TextSpaceLife{
+        top: 67%;
+    }
+    .AutoLayout_1{
+        right: 4.5%;
+    }
+    .AutoLayout{
+        left: 2.5%;
+        top: 56%;
+    }
+}
+@media(max-width:1100px){
+    .TextMarsToDay{
+        top: 49%;
+    }
+    .TextSpaceLife{
+        top: 67%;
+    }
+    .AutoLayout_1{
+        right: 4.5%;
+        top: 58vw;
+    }
+    .AutoLayout{
+        left: 2.5%;
+        top: 58vw;
+    }
+    .TIKM{
+        margin-left: 0;
+        padding-left: 17px;
+        padding-right: 17px;
+        width: 30vw;
+    }
+    .Mars{
+        width: 30vw;
+    }
+    .MTH{
+        width: 28vw;
+        height: 20vh;
+        margin-left: 2vw;
+    }
+    .MPEconome{
+        width: auto;
+    }
+    .MPComfort{
+        width: auto;
+    }
+    .MPBisness{
+        width: auto;
+    }
+}
+@media screen and (max-width:1024px){
+    .VenusGl{
+        width: 70vw;
+        height: auto;
+        top: 3%;
+    }
+    .ZSpace{
+        width: 100vw;
+        height: auto;
+        top: 10%;
+    }
+    .TextMarsToDay{
+        width: 80vw;
+        left: auto;
+        right: auto;
+        top: 35%;
+        font-size: 125px;
+    }
+    .TextSpaceLife{
+        position: absolute;
+        width: 50%;
+        height: 5%;
+        left: auto;
+        right: auto;
+        top: 45%;
+        font-size: 91px;
+    }
+    .Arrow1{
+        top: 70vh;
+        left: auto;
+        right: auto;
+    }
+    .ButtonCont{
+        width: auto;
+        height: auto;
+        font-size: 150px;
+    }
+    
+    .ButtonInfo{
+        width: auto;
+        height: auto;
+        font-size: 150px;
+    }
+    .AutoLayout_1{
+        width: auto;
+        height: auto;
+        right: 5%;
+        top: 60%;
+    }
+    .AutoLayout{
+        width: auto;
+        height: auto;
+        left: 5%;
+        top: 60%;
+    }
+    .Shop_SMV{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(./images/BackgroundBlackStarEdition.jpg);
+        display: table;
+        justify-content: center;
+    }
+    .TIKM{
+        width: 90vw;
+        height: 85vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 11vh;
+        border-radius: 100px;
+    }
+    .Mars{
+        width: 90vw;
+        height: 85vh;
+    
+        background: rgba(255, 255, 255, 0.62);
+        
+        border-radius: 40px;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        border-radius: 100px;
+    }
+    .MTH{
+        width: 80vw;
+        height: 20vh;
+        margin-left: 8vw;
+        margin-top: 8vh;
+        gap: 10vh;
+        font-family: 'Offside';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 8vh;
+    
+        color: #000000;
+    }
+    .MList_class{
+        width: 80vw;
+        height: 35vh;
+        margin-left: 4vw;
+        margin-top: 5vh;
+    }
+    .MEconome{
+        width: 80vw;
+        height:12vh;
+        display: flex;
+    }
+    .MComfort{
+        width: 80vw;
+        height:12vh;
+        display: flex;
+    }
+    .MBisness{
+        width: 80vw;
+        height:12vh;
+        display: flex;
+    }
+    .MPEconome{
+        width: 45vw;
+        height: 8vh;
+        margin-top: 1.5vh;
+        font-family: 'Offside';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 63px;
+    
+        color: #000000;
+    }
+    .MPComfort{
+        width: 45vw;
+        height: 8vh;
+        margin-top: 1.5vh;
+        font-family: 'Offside';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 63px;
+        
+        color: #000000; 
+    }
+    .MPBisness{
+        width: 45vw;
+        height: 8vh;
+        margin-top: 1.5vh;
+        font-family: 'Offside';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 63px;
+        
+        color: #000000;
+    }
+    .MEOrder{
+        width: 35vw;
+        height: 6vh;
+        margin-left: 4vw;
+    
+        font-size: 75px;
+        background-size: 60vw 40vw;
+        background-position: center;
+        border-radius: 75px;
+    }
+    .MCOrder{
+        width: 35vw;
+        height: 6vh;
+        margin-left: 4vw;
+    
+        font-size: 75px;
+        background-size: 60vw 40vw;
+        background-position: center;
+        border-radius: 75px;
+    }
+    .MBOrder{
+        width: 35vw;
+        height: 6vh;
+        margin-left: 4vw;
+    
+        font-size: 75px;
+        background-size: 60vw 40vw;
+        background-position: center;
+        border-radius: 75px;
+    }
+
+    
+    .MTD{
+        width: 40vw;
+        height: 10vh;
+        margin-left: 20vw;
+        margin-top: 5vh;
+        border-radius: 100px;
+    }
+    .MTB{
+        width: auto;
+        height: auto;
+    
+        font-family: 'Offside';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 72px;
+        /* identical to box height */
+    
+    
+        color: #FFFFFF;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .SEOrder{
+        width: 35vw;
+        height: 6vh;
+        margin-left: 4vw;
+    
+        font-size: 75px;
+        background-size: 60vw 40vw;
+        background-position: center;
+        border-radius: 75px;
+    }
+    .SCOrder{
+        width: 35vw;
+        height: 6vh;
+        margin-left: 4vw;
+    
+        font-size: 75px;
+        background-size: 60vw 40vw;
+        background-position: center;
+        border-radius: 75px;
+    }
+    .SBOrder{
+        width: 35vw;
+        height: 6vh;
+        margin-left: 4vw;
+    
+        font-size: 75px;
+        background-size: 60vw 40vw;
+        background-position: center;
+        border-radius: 75px;
+    }
+    .STD{
+        width: 40vw;
+        height: 10vh;
+        margin-left: 20vw;
+        margin-top: 5vh;
+        border-radius: 100px;
+    }
+    .VEOrder{
+        width: 35vw;
+        height: 6vh;
+        margin-left: 4vw;
+    
+        font-size: 75px;
+        background-size: 60vw 40vw;
+        background-position: center;
+        border-radius: 75px;
+    }
+    .VCOrder{
+        width: 35vw;
+        height: 6vh;
+        margin-left: 4vw;
+    
+        font-size: 75px;
+        background-size: 60vw 40vw;
+        background-position: center;
+        border-radius: 75px;
+    }
+    .VBOrder{
+        width: 35vw;
+        height: 6vh;
+        margin-left: 4vw;
+    
+        font-size: 75px;
+        background-size: 60vw 40vw;
+        background-position: center;
+        border-radius: 75px;
+    }
+    .VTD{
+        width: 40vw;
+        height: 10vh;
+        margin-left: 20vw;
+        margin-top: 5vh;
+        border-radius: 100px;
+    }
+    .container_F{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 95.625%;
+        height: 50%;
+        bottom: 5%;
+    }
+    .P_F{
+        width: 90vw;
+        height: 20vh;
+        left: 2.5vw;
+        font-size: 125px;
+        line-height: 8vh;
+    }
+
+    .contact_F{
+        position: absolute;
+        width: 95%;
+        height: 30%;
+        left: 2.5%;
+        top: 69%;
+    }
+
+}
+@media(max-width:768px){
+    .ZSpace{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 12%;
+    }
+    .TextMarsToDay{
+        width: 85vw;
+        font-size: 100px;
+        top: 52%;
+    }
+    .TextSpaceLife{
+        opacity: 0;
+    }
+    .AutoLayout_1{
+        width: 22.5vw;
+        height: 14vh;
+        right: 8%;
+        top: 72.5%;
+    }
+    .AutoLayout{
+        width: 22.5vw;
+        height: 14vh;
+        left: 5%;
+        top: 73%;
+    }
+
+    .TIKM{
+        width: 60vw;
+        height: 85vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 11vh;
+    }
+    .Mars{
+        width: 60vw;
+        height: 85vh;
+    }
+    .MTH{
+        width: 45vw;
+        height: 20vh;
+        margin-left: 5vw;
+        margin-top: 8vh;
+        font-size: 75px;
+    }
+    .MPEconome{
+        width: 25vw;
+        height: 8vh;
+        margin: 0;
+        font-size: 40px;
+        line-height: 63px;
+    }
+    .MPComfort{
+        width: 25vw;
+        height: 8vh;
+        margin: 0;
+        font-size: 40px;
+        line-height: 63px;
+    }
+    .MPBisness{
+        width: 25vw;
+        height: 8vh;
+        margin: 0;
+        font-size: 40px;
+        line-height: 63px;
+    }
+    .MList_class{
+        width: 48vw;
+        height: 27vh;
+        margin-left: 7vw;
+        margin-top: 5vh;
+    }
+    .MTB{
+        width: 14vw;
+    }
+    .MTD{
+        width: 18vw;
+    }
+    .STD{
+        width: 18vw;
+    }
+    .VTD{
+        width: 18vw;
+    }
+    .container_F{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 95.625%;
+        height: 20%;
+        bottom: 5%;
+    }
+    .P_F{
+        font-size: 20px;
+    }
+
+    .contact_F{
+        position: absolute;
+        width: 26.4583333333%;
+        height: 40%;
+        left: 71.6775599129%;
+        top: 55%;
+    }
+    .minIconFacebook{
+        width: 10%;
+        height: auto;
+        margin-left: 7%;
+    }
+    .minIconTelegram{
+        width: 15%;
+        height: auto;
+        margin-left: 10%;
+    }
+    .minIconInstagram{
+        width: 15%;
+        height: auto;
+        margin-left: 10%;
+    }
+    .minIconWatsApp{
+        width: 15%;
+        height: auto;
+        margin-left: 10%;
+    }
+}
+@media(max-width:425px){
+    .VenusGl{
+        width: 65vw;
+        height: auto;
+        top: 5vh;
+    }
+    .ZSpace{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 10%;
+    }
+    .Arrow1{
+        position: absolute;
+        width: 88px;
+        height: auto;
+        top: 70%;
+    }
+    .TextMarsToDay{
+        width: 77vw;
+        font-size: 50px;
+        top: 35%;
+    }
+    .TextSpaceLife{
+        opacity: 1;
+        width: 55vw;
+        font-size: 40px;
+        top: 43%;
+    }
+    .AutoLayout_1{
+        width: 22.5vw;
+        height: 14vh;
+        right: 8%;
+        top: 55%;
+    }
+    .AutoLayout{
+        width: 22.5vw;
+        height: 14vh;
+        left: 5%;
+        top: 55%;
+    }
+    .ButtonCont{
+        width: 100px;
+        height: 120px;
+        font-size: 50px;
+    }
+    .ButtonInfo{
+        width: 100px;
+        height: 120px;
+        font-size: 50px;
+    }
+    .TIKM{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 20px;
+        gap: 10px;
+    
+    
+        width: 90vw;
+        height: 85vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 11vh;
+        
+        border-radius: 50px;
+    }
+    .Mars{
+        width: 90vw;
+        height: 85vh;
+    
+        background: rgba(255, 255, 255, 0.62);
+        
+        border-radius: 40px;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .MTH{
+        width: 90vw;
+        height: 20vh;
+        margin-left: 2.5vw;
+        margin-top: 8vh;
+        font-size: 80px;
+    }
+    .MList_class{
+        width: 90vw;
+        height: 33vh;
+        margin-left: 2vw;
+        margin-top: 5vh;
+    }
+    .MEconome{
+        width: 90vw;
+        height:12vh;
+        display: flex;
+    }
+    .MComfort{
+        width: 90vw;
+        height:12vh;
+        display: flex;
+    }
+    .MBisness{
+        width: 90vw;
+        height:12vh;
+        display: flex;
+    }
+    .MPEconome{
+        width: 50vw;
+        height: 8vh;
+        margin: 0;
+        font-family: 'Offside';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 63px;
+    
+        color: #000000;
+    }
+    .MPComfort{
+        width: 50vw;
+        height: 8vh;
+        margin: 0;
+        font-family: 'Offside';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 63px;
+        
+        color: #000000; 
+    }
+    .MPBisness{
+        width: 50vw;
+        height: 8vh;
+        margin: 0;
+        font-size: 45px;
+    }
+    .MEOrder{
+        width: 30vw;
+        height: 8vh;
+        margin-left: 4vw;
+        font-size: 40px;
+        background-size: 40vw 40vw;
+        background-position: center;
+    }
+    .MCOrder{
+        width: 30vw;
+        height: 8vh;
+        margin-left: 4vw;
+        font-size: 40px;
+        background-size: 40vw 40vw;
+        background-position: center;
+    }
+    .MBOrder{
+        width: 30vw;
+        height: 8vh;
+        margin-left: 4vw;
+        font-size: 40px;
+        background-size: 40vw 40vw;
+        background-position: center;
+    }
+
+    
+    .MTD{
+        width: 30vw;
+        height: 10vh;
+        margin-left: 20vw;
+        margin-top: 5vh;
+    }
+    .MTB{
+        width: 25vw;
+        height: 8vh;
+        font-size: 57px;
+    }
+    .SEOrder{
+        width: 30vw;
+        height: 8vh;
+        margin-left: 4vw;
+        font-size: 40px;
+        background-size: 40vw 40vw;
+        background-position: center;
+    }
+    .SCOrder{
+        width: 30vw;
+        height: 8vh;
+        margin-left: 4vw;
+        font-size: 40px;
+        background-size: 40vw 40vw;
+        background-position: center;
+    }
+    .SBOrder{
+        width: 30vw;
+        height: 8vh;
+        margin-left: 4vw;
+        font-size: 40px;
+        background-size: 40vw 40vw;
+        background-position: center;
+    }
+    .STD{
+        width: 30vw;
+        height: 10vh;
+        margin-left: 20vw;
+        margin-top: 5vh;
+    }
+    .VEOrder{
+        width: 30vw;
+        height: 8vh;
+        margin-left: 4vw;
+        font-size: 40px;
+        background-size: 40vw 40vw;
+        background-position: center;
+    }
+    .VCOrder{
+        width: 30vw;
+        height: 8vh;
+        margin-left: 4vw;
+        font-size: 40px;
+        background-size: 40vw 40vw;
+        background-position: center;
+    }
+    .VBOrder{
+        width: 30vw;
+        height: 8vh;
+        margin-left: 4vw;
+        font-size: 40px;
+        background-size: 40vw 40vw;
+        background-position: center;
+    }
+    .VTD{
+        width: 30vw;
+        height: 10vh;
+        margin-left: 20vw;
+        margin-top: 5vh;
+    }
+    .container_F{
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 95.625%;
+        height: 50%;
+        bottom: 5%;
+    }
+    .P_F{
+        width: 90vw;
+        height: 20vh;
+        left: 2.5vw;
+        font-size: 50px;
+    }
+
+    .contact_F{
+        position: absolute;
+        width: 95%;
+        height: 30%;
+        left: 2.5%;
+        top: 69%;
+    }
+
+}
