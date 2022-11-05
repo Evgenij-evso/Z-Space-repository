@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background-image: url(./images/BackgroundBlackStarEdition.jpg);
+}
+
+.Info_My{
+    position: absolute;
+    width: 39.84375%;
+    height: 75%;
+    left: 4.73958333333%;
+    top: 8.88888888889%;
+
+    display: table;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.137);
+    border-style: dashed;
+    border-radius: 75px;
+    border-color: rgba(255, 255, 255, 0.411);
+}
+
+.InfoMyH{
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    left: 10%;
+    
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 129.6%;
+    /* or 194px */
+    
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-indent: 3px;
+    
+    color: #FFFFFF;
+}
+.InfoLogo{
+    position: absolute;
+    width: 70%;
+    height: auto;
+    left: 15%;
+    top: 45%;
+}
+.InfoH{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    left: 69%;
+    top: 3%;
+    
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 129.6%;
+    /* or 194px */
+    
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-indent: 3px;
+    
+    color: #FFFFFF;
+}
+.InfoP{
+    position: absolute;
+    width: 25%;
+    height: 40%;
+    left: 64%;
+    top: 30%;
+    
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 129.6%;
+    /* or 83px */
+    
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-indent: 3px;
+    
+    color: #FFFFFF;
+}
+
+/* easterEgg */
+@media(max-width: 1600px){
+    .InfoH{
+        font-size: 125px;
+
+    }
+    .InfoMyH{
+        font-size: 125px;
+    }
+    .InfoP{
+        width: 40%;
+        height: 45%;
+        left: 57%;
+    }
+}
+@media(max-width: 1280px){
+    .Info_My{
+        height: 65%;
+    }
+    .InfoH{
+        font-size: 125px;
+        left: 67%;
+    }
+    .InfoMyH{
+        font-size: 115px;
+        left: 8%;
+    }
+    .InfoP{
+        width: 40%;
+        height: 45%;
+        left: 57%;
+    }
+    .InfoLogo{
+        width: 80%;
+        height: auto;
+        left: 10%;
+    }
+}

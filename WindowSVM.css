@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nabla', cursive;
+}
+header{
+    position: static;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/BackgroundBlackStarEdition.jpg);
+    display: table;
+}
+.TextGlH{
+    position: absolute;
+    width: 40vw;
+    height: 30vh;
+
+    margin: 0;
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 315px;
+
+    color: #FFFFFF;
+}
+.BuyDownBackground{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 37vw;
+    height: 66vh;
+    left: 2vw;
+    top: 31.6vh;
+
+    background: rgba(255, 255, 255, 0.1);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    box-shadow: inset 15px 18px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 63px;
+}
+.EconomyBD{
+    width: 37vw;
+    height: 16vh;
+    margin-left: 3vw;
+}
+.ETextH{
+    position: absolute;
+    width: 20vw;
+    height: 7vh;
+
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 81px;
+
+    color: #FFFFFF;
+}
+.EBuyDiv{
+    position: absolute;
+    width: 16vw;
+    height: 15vh;
+    left: 20vw;
+
+    background-image: url(./images/BuyDiv.png);
+}
+
+
+.ValE{
+    position: absolute;
+    width: 10vw;
+    height: 9vh;
+    left: 2vw;
+    top: 1vh;
+
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 81px;
+
+    color: #FFFFFF;
+}
+.WindowInDiv{
+    box-sizing: border-box;
+
+    width: 32vw;
+    height: 16vh;
+    margin-left: 2.5vw;
+    margin-top: 0vh;
+
+    background: rgba(255, 255, 255, 0.1);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 35px;
+}
+.InfoH2{
+    width: 7vw;
+    height: 4vh;
+
+    margin-left: 13vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0;
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+}
+.InfoP{
+    width: 20vw;
+    height: 10vh;
+    margin-left: 3vw;
+    margin-top: 0.5vh;
+
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+
+.bx-viewport{
+    border-radius: 65px;
+}
+.bx-wrapper{
+    width: 40vw;
+    height: 66vh;
+    left: 57vw;
+    top: 31.6vh;
+
+    box-shadow: none !important;
+    background:none !important;
+    border:none !important;
+}
