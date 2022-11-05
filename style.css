@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
 body{
     padding: 0;
     margin: 0;
-
     background-image: url(./images/BackgroundBlackStarEdition6.jpg);
     display: table;
+    font-family: 'Offside', cursive;
 }
 
 header{
@@ -14,6 +13,7 @@ header{
     background-image: url(./images/BackgroundBlackStarEdition.jpg);
     display: inline-flex;
     justify-content: center;
+    font-family: 'Offside', cursive;
 }
 /* Text */
 .TextMarsToDay{
@@ -173,6 +173,7 @@ header{
     background-image: url(./images/BackgroundBlackStarEdition.jpg);
     display: flex;
     align-items: center;
+    font-family: 'Offside', cursive;
 }
 .TIKM{
     display: flex;
