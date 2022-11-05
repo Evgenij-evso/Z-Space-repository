@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Nabla', cursive;
+    font-family: 'Offside';
     background-image: url(./images/BackgroundBlackStarEdition6.jpg);
     display: table;
 }
@@ -19,8 +20,8 @@ header{
     height: auto;
     left: 34%;
     top: 54%;
-
-
+    
+    
     font-family: 'Offside';
     font-style: normal;
     font-weight: 400;
