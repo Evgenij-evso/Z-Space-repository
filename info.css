@@ -100,12 +100,33 @@ html,body{
         
     }
     .Info_My{
-        width: 55vw;
-        height: 40vh;
+        width: 80vw;
+        height: 50vh;
+        justify-content: center;
         align-items: center;
         display: table;
         margin-left: auto;
         margin-right: auto;
+    }
+    .InfoMyH{
+        width: auto;
+        height: auto;
+        margin-top: 7vh;
+        font-family: 'Offside';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15vw;
+        line-height: 129.6%;
+        /* or 194px */
+        
+        text-align: center;
+        letter-spacing: -0.01em;
+        text-indent: 3px;
+        
+        color: #FFFFFF;
+    }
+    .InfoLogo{
+        width: 100%;
     }
     .Info{
         width: auto;
@@ -116,12 +137,12 @@ html,body{
     .InfoH{
         width: auto;
         height: auto;
-        font-size: 10vw;
+        font-size: 15vw;
     }
     .InfoP{
         width: auto;
         height: auto;
 
-        font-size: 5vw;
+        font-size: 10vw;
     }
 }
