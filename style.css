@@ -176,10 +176,11 @@ header{
     font-family: 'Offside', cursive;
 }
 .TIKM{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
     padding: 0px 20px;
+    padding-right:0;
     gap: 10px;
 
 
@@ -207,23 +208,27 @@ header{
 .MList_class{
     width: 24vw;
     height: 27vh;
-    margin-left: 2vw;
+    margin-left: auto !important;
+    margin-right: auto !important;
     margin-top: 5vh;
 }
 .MEconome{
-    width: 22vw;
+    width: 25vw;
     height:10vh;
-    display: flex;
+    display: inline-flex !important;
+    align-items: center !important;
 }
 .MComfort{
-    width: 22vw;
+    width: 25vw;
     height:10vh;
-    display: flex;
+    display: inline-flex !important;
+    align-items: center !important;
 }
 .MBisness{
-    width: 22vw;
+    width: 25vw;
     height:10vh;
-    display: flex;
+    display: inline-flex !important;
+    align-items: center !important;
 }
 .MPEconome{
     width: 10vw;
@@ -327,7 +332,8 @@ header{
 
     width: 20vw;
     height: 20vh;
-    margin-left: 4vw;
+    margin-left: auto !important;
+    margin-right: auto !important;
     margin-top: 8vh;
 
     font-family: 'Offside';
@@ -350,7 +356,8 @@ header{
 
     width: 7vw;
     height: 7vh;
-    margin-left: 11vw;
+    margin-left: auto !important;
+    margin-right: auto !important;
     margin-top: 3vh;
 
     
@@ -360,8 +367,8 @@ header{
     border-radius: 40px;
 }
 .MTB{
-    width: auto;
-    height: auto;
+    width: auto !important;
+    height: auto !important;
 
     font-family: 'Offside';
     font-style: normal;
@@ -453,7 +460,8 @@ header{
 
     width: 7vw;
     height: 7vh;
-    margin-left: 11vw;
+    margin-left: auto !important;
+    margin-right: auto !important;
     margin-top: 3vh;
 
     
@@ -535,7 +543,8 @@ header{
 
     width: 7vw;
     height: 7vh;
-    margin-left: 11vw;
+    margin-left: auto !important;
+    margin-right: auto !important;
     margin-top: 3vh;
 
     
@@ -629,109 +638,59 @@ footer{
     margin-left: 10%;
 }
 /* HTML Contacts */
+.CContact{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./images/BackgroundBlackStarEdition.jpg);
+}
 .contacts{
-    position: absolute;
-    width: 893px;
-    height: 755px;
-    left: 29px;
-    top: 110px;
-
+    width: 40.5104166667vw;
 }
-.TextContact{
-    position: absolute;
-    width: 590px;
-    height: 162px;
-    left: 90px;
-    top: 65px;
 
-    font-family: 'Offside';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 150px;
-    line-height: 189px;
-
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.75) 0%, rgba(0, 255, 117, 0.1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
 .ContainerIcon{
-    position: absolute;
-    width: 800px;
-    height: 800px;
-    top: -100px;
-    left: 1000px;
+    width: auto;
+    height: auto;
+    margin-left: 2vw;
     background: #00000000;
     display: grid;
-    align-items: center;
     grid-template-areas: "TL TR"  
                         "BL BR";
-    grid-template-rows: 400px 400px;
-    grid-template-columns: 400px 400px; 
+    grid-template-rows: 20.8333333334vw 37vh;
+    grid-template-columns: 20.8333333334vw 37vh; 
+    align-items: center;
+    justify-content: center;
 
 }
 .IconTelegram{
-    position: absolute;
-    width: 392px;
-    height: 370px;
+    width: 20.4166666667vw;
+    margin-right: 1vw;
     grid-area: BR;
 }
 .IconWatsApp{
-    position: absolute;
-    width: 392px;
-    height: 370px;
+    width: 20.4166666667vw;
+    margin-top: 2vh;
     grid-area: TL;
 }
 .IconFacebook{
-    position: absolute;
-    width: 392px;
-    height: 370px;
+    width: 20.4166666667vw;
     grid-area: BL;
 }
 .IconInstagram{
-    position: absolute;
-    width: 392px;
-    height: 370px;
+    width: 20.4166666667vw;
+    margin-top: 2vh;
+    margin-right: 1vw;
     grid-area: TR;
 }
-.Menu_back{
-    position: absolute;
-    width: 200px;
-    margin-left: 1625px;
-    z-index: 1;
-}
-.Arrowback{
-    position: absolute;
-    width: 75px;
-    margin-left: 1800px;
-    margin-top: 35px;
-    opacity: 0;
+.A1{
+    width: auto;
+    height: auto;
 }
 /* HTML Contacts Back*/
-@media(max-height:900px){
-    .MTD{
-        width: 7vw;
-        height: 10vh;
-        margin-left: 11vw;
-        margin-top: 3vh;
-    }
-    .VTD{
-        width: 7vw;
-        height: 10vh;
-        margin-left: 11vw;
-        margin-top: 3vh;
-    }
-    .STD{
-        width: 7vw;
-        height: 10vh;
-        margin-left: 11vw;
-        margin-top: 3vh;
-    }
-    .MTB{
-        width: 6vw;
-        height: 7vh;
-    }
-}
+
+
 @media(max-width:1600px){
     .VenusGl{
         top: 3%;
@@ -764,6 +723,7 @@ footer{
         height: 8vh;
         font-size: 50px;
     }
+    
 
 }
 @media(max-width:1440px){
@@ -1379,36 +1339,34 @@ footer{
         top: 70%;
     }
     .TextMarsToDay{
-        width: 77vw;
         font-size: 50px;
         top: 35%;
     }
     .TextSpaceLife{
         opacity: 1;
-        width: 55vw;
         font-size: 40px;
         top: 43%;
     }
     .AutoLayout_1{
-        width: 22.5vw;
-        height: 14vh;
+        width: auto;
+        height: auto;
         right: 8%;
         top: 55%;
     }
     .AutoLayout{
-        width: 22.5vw;
-        height: 14vh;
+        width: auto;
+        height: auto;
         left: 5%;
         top: 55%;
     }
     .ButtonCont{
-        width: 100px;
-        height: 120px;
+        width: auto;
+        height: auto;
         font-size: 50px;
     }
     .ButtonInfo{
-        width: 100px;
-        height: 120px;
+        width: auto;
+        height: auto;
         font-size: 50px;
     }
     .TIKM{
@@ -1619,4 +1577,145 @@ footer{
         top: 69%;
     }
 
+}
+@media(max-height:900px){
+    .MTD{
+        width: 7vw;
+        height: 10vh;
+        margin-left: 11vw;
+        margin-top: 3vh;
+    }
+    .VTD{
+        width: 7vw;
+        height: 10vh;
+        margin-left: 11vw;
+        margin-top: 3vh;
+    }
+    .STD{
+        width: 7vw;
+        height: 10vh;
+        margin-left: 11vw;
+        margin-top: 3vh;
+    }
+    .MTB{
+        width: 6vw;
+        height: 7vh;
+    }
+    .TIKM{
+        padding-right:0;
+    }
+}
+@media(max-width:425px) and (max-height:750px){
+    .TextSpaceLife{
+        opacity: 0;
+    }
+    .TextMarsToDay{
+        top: 40%;
+    }
+    .MTH{
+        line-height: 10vh;
+        margin-left: 2vw;
+        font-size: 60px;
+    }
+    .MPEconome{
+        width: auto;
+        height: auto;
+    }
+    .MPComfort{
+        width: auto;
+        height: auto;
+    }
+    .MPBisness{
+        width: auto;
+        height: auto;
+    }
+    .MTD{
+        background-size: 60vw 40vw;
+    }
+    .VTD{
+        background-size: 60vw 40vw;
+    }
+    .STD{
+        background-size: 60vw 40vw;
+    }
+    .MTB{
+        height: auto;
+    }
+}
+@media(max-height:700px){
+    .TextSpaceLife{
+        opacity: 0;
+    }
+    .TextMarsToDay{
+        top: 60%;
+    }
+    .AutoLayout_1{
+        width: auto;
+        height: auto;
+        right: 8%;
+        top: 70%;
+    }
+    .AutoLayout{
+        width: auto;
+        height: auto;
+        left: 8%;
+        top: 70%;
+    }
+}
+@media(max-height:650px){
+    .TextSpaceLife{
+        opacity: 0;
+    }
+    .TextMarsToDay{
+        top: 60%;
+    }
+    .AutoLayout_1{
+        width: auto;
+        height: auto;
+        right: 8%;
+        top: 70%;
+    }
+    .AutoLayout{
+        width: auto;
+        height: auto;
+        left: 8%;
+        top: 70%;
+    }
+    .TIKM{
+        height: 85vh; 
+    }
+    .Mars{
+        height: 85vh; 
+    }
+    .MTH{
+        height: 27vh;
+        margin-left: 2vw;
+        margin-top: 6vh;
+        font-size: 60px;
+    }
+    .MPEconome{
+        font-size: 35px;
+        width: auto;
+        height: auto;
+    }
+    .MPComfort{
+        width: auto;
+        height: auto;
+    }
+    .MPBisness{
+        width: auto;
+        height: auto;
+    }
+    .VTD{
+        margin-top: 6vh;
+    }
+    .STD{
+        margin-top: 6vh;
+    }
+    .MTD{
+        margin-top: 6vh;
+    }
+    .Arrow1{
+        opacity: 0;
+    }
 }
