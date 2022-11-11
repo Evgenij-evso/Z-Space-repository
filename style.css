@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+html,head{
+    width: 100vw;
+    height: 100vh;
+}
 body{
     padding: 0;
     margin: 0;
+    width: 100vw;
+    height: 100vh;
     background-image: url(./images/BackgroundBlackStarEdition6.jpg);
     display: table;
     font-family: 'Offside', cursive;
@@ -136,8 +142,7 @@ header{
 }
 .Arrow1{
     position: absolute;
-    width: 88px;
-    height: 55px;
+    width: 5vw;
     right: auto !important;
     left: auto !important;
     top: 86%;
@@ -145,22 +150,20 @@ header{
 /* Button Back */
 .VenusGl{
     position: absolute;
-    width: 512px;
-    height: 512px;
+    width: 27vw;
     right: auto !important;
     left: auto !important;
     top: 2.5%;
 }
 .ZSpace{
     position: absolute;
-    width: 900px;
-    height: 415px;
+    width: 50vw;
     right: auto !important;
     left: auto !important;
     top: 7.6%;
 }
 .display2{
-    margin-top: 1080px;
+    margin-top: 100vh;
     width: 1900px;
     height: 1000px;
     background-image: url(./images/BackgroundBlackStarEdition.jpg);
@@ -1193,7 +1196,58 @@ footer{
         left: 2.5%;
         top: 69%;
     }
-
+    /* Contact_Adoptation */
+    .A1{
+        width: min-content;
+    }
+    .CContact{
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        display: table;
+        background: url(./images/BackgroundBlackStarEdition.jpg);
+    }
+    .contacts{
+        width: 90vw;
+        margin-left: 5vw;
+        margin-top: 5em;
+        margin-bottom: 10em;
+    }
+    .ContainerIcon{
+        width: auto;
+        height: 65em;
+        margin-left: 2vw;
+        background: #00000000;
+        display: grid;
+        grid-template-areas: "TL TR"  
+                            "BL BR";
+        grid-template-rows: 42vw 20vh;
+        grid-template-columns: 42vw 20vh; 
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .IconTelegram{
+        width: 40vw;
+        margin-right: 1vw;
+        grid-area: BR;
+    }
+    .IconWatsApp{
+        width: 40vw;
+        margin-top: 2vh;
+        grid-area: TL;
+    }
+    .IconFacebook{
+        width: 40vw;
+        grid-area: BL;
+    }
+    .IconInstagram{
+        width: 40vw;
+        margin-top: 2vh;
+        margin-right: 1vw;
+        grid-area: TR;
+    }
 }
 @media(max-width:768px){
     .ZSpace{
