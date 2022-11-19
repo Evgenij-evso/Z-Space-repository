@@ -368,6 +368,7 @@ header{
     background-size: 30vh 20vh;
     background-position: center;
     border-radius: 40px;
+    
 }
 .MTB{
     width: auto !important;
@@ -389,6 +390,7 @@ header{
     flex: none;
     order: 0;
     flex-grow: 0;
+    text-decoration: none;
 }
 .SEOrder{
     display: flex;

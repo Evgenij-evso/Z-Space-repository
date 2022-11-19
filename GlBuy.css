@@ -1,0 +1,38 @@
+body,head{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background: url(./images/BackgroundBlackStarEdition.jpg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.BigWhiteBer{
+    position: absolute;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+}
+.PGl{
+    position: absolute;
+    width: 25vw;
+    height: 17vh;
+    left: 64vw;
+    top: 35vh;
+
+    font-family: 'Offside';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 57px;
+
+    color: #FFFFFF;
+
+    transform: rotate(8.85deg);
+}

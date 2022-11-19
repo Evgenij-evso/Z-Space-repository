@@ -4,16 +4,15 @@ body{
     font-family: 'Nabla', cursive;
 }
 header{
-    position: static;
     width: 100vw;
     height: 100vh;
     background-image: url(./images/BackgroundBlackStarEdition.jpg);
-    display: table;
+    display:table;
 }
 .TextGlH{
-    position: absolute;
-    width: 40vw;
-    height: 30vh;
+    position: static;
+    width: min-content;
+    height: min-content;
 
     margin: 0;
     font-family: 'Offside';
@@ -27,7 +26,6 @@ header{
 .BuyDownBackground{
     box-sizing: border-box;
 
-    position: absolute;
     width: 37vw;
     height: 66vh;
     left: 2vw;
@@ -39,14 +37,14 @@ header{
     border-radius: 63px;
 }
 .EconomyBD{
-    width: 37vw;
+    width: 35vw;
     height: 16vh;
     margin-left: 3vw;
+    display: flex;
 }
 .ETextH{
-    position: absolute;
-    width: 20vw;
-    height: 7vh;
+    width: 16vw;
+    height: auto;
 
     font-family: 'Offside';
     font-style: normal;
@@ -57,22 +55,21 @@ header{
     color: #FFFFFF;
 }
 .EBuyDiv{
-    position: absolute;
     width: 16vw;
     height: 15vh;
-    left: 20vw;
-
+    display: flex;
     background-image: url(./images/BuyDiv.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.HoverA{
+    text-decoration: none;
 }
 
-
 .ValE{
-    position: absolute;
-    width: 10vw;
-    height: 9vh;
-    left: 2vw;
-    top: 1vh;
-
+    width: auto;
+    height: auto;
+    margin-left: 1vw;
     font-family: 'Offside';
     font-style: normal;
     font-weight: 400;
@@ -83,10 +80,12 @@ header{
 }
 .WindowInDiv{
     box-sizing: border-box;
+    display: table;
+    justify-content: center;
 
-    width: 32vw;
-    height: 16vh;
-    margin-left: 2.5vw;
+    width: 90%;
+    height: 12%;
+    margin-left: 5%;
     margin-top: 0vh;
 
     background: rgba(255, 255, 255, 0.1);
@@ -97,7 +96,8 @@ header{
     width: 7vw;
     height: 4vh;
 
-    margin-left: 13vw;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0.5vh;
     margin-bottom: 0;
     font-family: 'Offside';
@@ -128,12 +128,200 @@ header{
     border-radius: 65px;
 }
 .bx-wrapper{
+    position: absolute !important;
     width: 40vw;
     height: 66vh;
     left: 57vw;
-    top: 31.6vh;
+    top: 30vh;
 
     box-shadow: none !important;
     background:none !important;
     border:none !important;
+}
+@media(max-width:1680px){
+    .TextGlH{
+        font-size: 250px;
+    }
+    .bx-wrapper{
+        position: absolute !important;
+        width: 40vw;
+        height: 66vh;
+        left: 57vw;
+        top: 30vh;
+    
+        box-shadow: none !important;
+        background:none !important;
+        border:none !important;
+        margin: 0 !important;
+    }
+    .BuyDownBackground{
+        width: 40vw;
+        height: 65vh;
+        
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .WindowInDiv{
+        box-sizing: border-box;
+        display: table;
+        justify-content: center;
+    
+        width: 90%;
+        height: 4%;
+        margin-left: 5%;
+        margin-top: -2.5%;
+    
+        background: rgba(255, 255, 255, 0.1);
+        border: 3px solid rgba(255, 255, 255, 0.2);
+        border-radius: 35px;
+    }
+    .EconomyBD{
+        width: 37vw;
+    }
+    .ETextH{
+        width: 19vw;
+        height: auto;
+    }
+    .EBuyDiv{
+        width: 17vw;
+        height: 15vh;
+        display: flex;
+        background-image: url(./images/BuyDiv.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+@media(max-width:1600px){
+    .BuyDownBackground{
+        width: 40vw;
+        height: 66vh;
+        left: 2vw;
+        top: 31.6vh;
+    
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .EconomyBD{
+        width: 37vw;
+    }
+    .ETextH{
+        width: 19vw;
+        height: auto;
+    }
+    .EBuyDiv{
+        width: 17vw;
+        height: 15vh;
+        display: flex;
+        background-image: url(./images/BuyDiv.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+@media(max-width:1025px){
+    header{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(./images/BackgroundBlackStarEdition.jpg);
+        display:table;
+        justify-content: center;
+        align-items: center;
+    }
+    .TextGlH{
+        position: static;
+        width: min-content;
+        height: auto;
+    
+        margin: auto;
+        margin-bottom: 5vh;
+        font-family: 'Offside';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 250px;
+        line-height: 315px;
+    
+        color: #FFFFFF;
+    }
+    .BuyDownBackground{
+        width: 90vw;
+        height: 50vh;
+
+        margin: auto;
+        margin-bottom: 5vh;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .EconomyBD{
+        width: 90%;
+        height: 20%;
+    }
+    .ETextH{
+        width: 75%;
+        height: auto;
+    }
+    .EBuyDiv{
+        width: 35vw;
+        height: 9vh;
+        display: flex;
+        background-image: url(./images/BuyDiv.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .ValE{
+        width: auto;
+    }
+    .WindowInDiv{
+        box-sizing: border-box;
+    
+        width: 90%;
+        height: 16vh;
+        margin-left: 5%;
+        margin-top: 0vh;
+
+        display: table;
+        justify-content: center;
+    }
+    .InfoH2{
+        width: min-content;
+        height: auto;
+    
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.5vh;
+        margin-bottom: 0;
+        font-family: 'Offside';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 40px;
+    
+        color: #FFFFFF;
+    }
+    .InfoP{
+        width: auto;
+        height: 10vh;
+        margin-left: 3vw;
+        margin-top: 0.5vh;
+    
+        font-family: 'Offside';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 75px;
+    
+        color: #FFFFFF;
+    }
+    .bx-wrapper{
+        position: static !important;
+        width: 90vw !important;
+        height: auto !important;
+        margin: auto;
+    
+        box-shadow: none !important;
+        background:none !important;
+        border:none !important;
+    }
+    .border_img{
+        width: 90vw !important;
+        height: auto !important;
+    }
+    .bx-controls-direction{
+        opacity: 0 !important;
+    }
 }

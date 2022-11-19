@@ -5,7 +5,8 @@ let TR = document.querySelector('.IconFacebook')
 let II = document.querySelector('.IconI')
 let AB = document.querySelector('.Arrowback')
 let MB = document.querySelector('.Menu_back')
-
+document.onselectstart=new Function("return false");
+document.ondragstart=new Function("return false");
 MB.addEventListener('mouseenter',function(){
     anime({
         targets:AB,

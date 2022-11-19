@@ -24,7 +24,8 @@ let SEOrder = document.querySelector('.SEOrder')
 let SCOrder = document.querySelector('.SCOrder')
 let SBOrder = document.querySelector('.SBOrder')
 
-
+document.onselectstart=new Function("return false");
+document.ondragstart=new Function("return false");
 minIconFacebook.addEventListener('mouseenter',function(){
     anime({
         targets:minIconFacebook,
